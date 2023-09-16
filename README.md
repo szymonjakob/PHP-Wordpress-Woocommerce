@@ -6,3 +6,6 @@ To get things work just copy and paste function/filter code into functions.php f
 
 <h2>Advantege of using hooks</h2>
 The biggest advantage of this solution is that it does not directly affect the template files of the wordpress theme. It's injection 💉
+
+<h2>generatepress pefix</h2>
+Functions preceded by "generatepress" only work with the generatePress theme
