@@ -1,3 +1,4 @@
+<?php
 // If you dont use woocommerce blocks dequeue woocommerce blocks style which affect on performance.
 add_action( 'wp_enqueue_scripts', 'disable_woocommerce_block_styles' );
 
