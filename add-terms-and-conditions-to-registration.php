@@ -12,3 +12,11 @@ function terms_and_conditions_to_registration() {
     <?php
     }
 }
+
+//Validate required term and conditions check box
+add_action( 'woocommerce_register_post', 'terms_and_conditions_validation', 20, 3 );
+function terms_and_conditions_validation( $username, $email, $validation_errors ) {
+    if ( ! isset( $_POST['terms'] ) )
+        $validation_errors->add( 'terms_error', __( 'Nie zaakceptowałaś/eś regulaminu sklepu.', 'woocommerce' ) );
+    return $validation_errors;
+}
