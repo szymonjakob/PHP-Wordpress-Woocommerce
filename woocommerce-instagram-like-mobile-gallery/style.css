@@ -1,0 +1,35 @@
+@media (max-width: 1024px) {
+    .flex-control-nav {
+    height: 0;
+    position: relative;
+    text-align: center;
+    bottom: 1.5em;
+    }
+
+    .flex-control-nav li {
+        margin: 0 3px;
+        display: inline-block;
+        zoom: 1;
+    }
+
+    .flex-control-paging {
+        margin: 0;
+    }
+
+    .flex-control-paging li a {
+        width: 6px;
+        height: 6px;
+        display: block;
+        background: rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        text-indent: -9999px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+    }
+
+    .flex-control-paging li a.flex-active {
+        background: #fff;
+    }
+
+}
