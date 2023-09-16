@@ -1,6 +1,5 @@
 <?php
 add_action( 'woocommerce_thankyou', 'auto_tag_product_after_purchase' );
-
 function auto_tag_product_after_purchase( $order_id ) {
    $order = wc_get_order( $order_id );
    $auto_tag_id = array( ID ); // ID of your tag here
