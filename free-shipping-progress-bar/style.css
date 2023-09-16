@@ -1,0 +1,43 @@
+.free-shipping-progress-bar {
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+   font-size: 16px;
+   color: #444;
+}
+
+.progress-bar-text {
+   margin-bottom: 10px;
+}
+
+.progress-bar-container {
+   height: 10px;
+   border-radius: 5px;
+   background-color: #ddd;
+   position: relative;
+}
+
+.progress-bar {
+   height: 10px;
+   border-radius: 5px;
+   background-color: #4CAF50;
+   transition: width 0.5s ease;
+}
+
+.back-to-shopping-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+    width: fit-content;
+    align-self: end;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.back-to-shopping-btn:hover {
+   opacity: 0.8;
+}
