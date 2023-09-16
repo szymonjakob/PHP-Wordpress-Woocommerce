@@ -1,4 +1,5 @@
 <?php
+// Code allow to add generatepress theme cart icon into menu bar combined with xoo-wsc-cart sidecart plugin 
 add_action('generate_menu_bar_items', 'add_gp_cart_icon_with_xoo_wsc_cart_plugin' , 20);
 function add_gp_cart_icon_with_xoo_wsc_cart_plugin() {
   if ( ! class_exists( 'WooCommerce' ) ) {
