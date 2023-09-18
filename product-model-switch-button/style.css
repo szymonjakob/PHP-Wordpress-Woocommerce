@@ -1,0 +1,30 @@
+.switch-version p {
+	display: block;
+	font-size: 13px;
+}
+
+.switch-version a.switch.button {
+	font-size: 14px;
+	line-height: 0;
+	background-color: white;
+	color: var(--contrast);
+	padding: 0;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.switch-version a.switch.button .gb-icon{
+	font-size: 2em;
+    padding-right: 8px;
+}
+
+.switch-version a.switch.button:hover {
+	background-color: unset;
+	color: var(--accent);
+}
+
+.switch-version a.switch.button:hover svg {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
