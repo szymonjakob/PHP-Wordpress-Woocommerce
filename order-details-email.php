@@ -7,7 +7,7 @@ function custom_add_email_meta( $fields, $order ) {
     if( ! empty( $apaczka_delivery_point ) ) {
         $fields[ 'apaczka_delivery_point' ] = array(
         'label' => 'Punkt odbioru',
-        'value' => ucfirst( $apaczka_delivery_point['apm_supplier'] ) . ' ' . $apaczka_delivery_point['apm_access_point_id']
+        'value' => esc_attr( $apaczka_delivery_point['apm_supplier'] ) . ' ' . esc_attr( $apaczka_delivery_point['apm_access_point_id'] )
         );
     }
 
